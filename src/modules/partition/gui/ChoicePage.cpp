@@ -1790,7 +1790,8 @@ ChoicePage::updateActionDescriptionsTr()
                                     "currently present on the selected storage device." ) );
 
         m_replaceButton->setText( tr( "<strong>Replace a partition</strong><br/>"
-                                      "Replaces a partition with %1." ) );
+                                      "Replaces a partition with %1." )
+                                      .arg( Calamares::Branding::instance()->shortVersionedName() ) );
     }
     if ( m_osproberEntriesCount < 0 )
     {
