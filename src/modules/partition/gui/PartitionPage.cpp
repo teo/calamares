@@ -54,6 +54,16 @@
 #include <QPointer>
 #include <QtConcurrent/QtConcurrent>
 
+///@brief At some point the msdos_sectorbased partition table type was retired
+static bool isMSDOSPartition(PartitionTable::TableType t)
+{
+#if WITH_KPMcore > 0x240801
+    return t == PartitionTable::TableType::msdos;
+#else
+    return t == PartitionTable::TableType::msdos || t == PartitionTable::TableType::msdos_sectorbased;
+#endif
+}
+
 PartitionPage::PartitionPage( PartitionCoreModule* core, const Config & config, QWidget* parent )
     : QWidget( parent )
     , m_ui( new Ui_PartitionPage )
@@ -253,7 +263,7 @@ PartitionPage::checkCanCreate( Device* device )
 {
     auto table = device->partitionTable();
 
-    if ( table->type() == PartitionTable::msdos || table->type() == PartitionTable::msdos_sectorbased )
+    if ( isMSDOSPartition( table->type() ) )
     {
         cDebug() << "Checking MSDOS partition" << table->numPrimaries() << "primaries, max" << table->maxPrimaries();
 
