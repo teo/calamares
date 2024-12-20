@@ -88,6 +88,8 @@ PartitionPage::PartitionPage( PartitionCoreModule* core, const Config & config, 
         ? PartitionBarsView::DrawNestedPartitions
         : PartitionBarsView::NoNestedPartitions;
     m_ui->partitionBarsView->setNestedPartitionsMode( mode );
+    m_ui->lvmButtonPanel->setVisible( config.isLVMEnabled() );
+
     updateButtons();
     updateBootLoaderInstallPath();
 
