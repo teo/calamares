@@ -60,10 +60,8 @@ PartitionPage::PartitionPage( PartitionCoreModule* core, QWidget* parent )
     , m_ui( new Ui_PartitionPage )
     , m_core( core )
     , m_lastSelectedBootLoaderIndex( -1 )
-    , m_isEfi( false )
+    , m_isEfi( PartUtils::isEfiSystem() )
 {
-    m_isEfi = PartUtils::isEfiSystem();
-
     m_ui->setupUi( this );
     m_ui->partitionLabelsView->setVisible(
         Calamares::JobQueue::instance()->globalStorage()->value( "alwaysShowPartitionLabels" ).toBool() );
