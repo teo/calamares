@@ -36,10 +36,6 @@ DirFSRestrictLayout::DirFSRestrictLayout( const DirFSRestrictLayout& layout )
 
 DirFSRestrictLayout::~DirFSRestrictLayout() {}
 
-DirFSRestrictLayout::DirFSRestrictEntry::DirFSRestrictEntry()
-{
-}
-
 DirFSRestrictLayout::DirFSRestrictEntry::DirFSRestrictEntry( const QString& path,
                                                              QList< FileSystem::Type > allowedFSTypes,
                                                              bool onlyWhenMountpoint )

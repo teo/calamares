@@ -29,10 +29,10 @@ public:
     {
         QString dirPath;
         QList< FileSystem::Type > dirAllowedFSTypes;
-        bool useOnlyWhenMountpoint;
+        bool useOnlyWhenMountpoint = false;
 
         /// @brief All-zeroes DirFSRestrictEntry
-        DirFSRestrictEntry();
+        DirFSRestrictEntry() = default;
         /** @brief Parse @p path, @p allowedFSTypes, and @p onlyWhenMountpoint to their respective member variables
          *
          * Sets a specific set of allowed filesystems for a mountpoint.
