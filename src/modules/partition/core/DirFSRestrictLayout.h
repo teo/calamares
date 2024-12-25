@@ -2,6 +2,7 @@
  *
  *   SPDX-FileCopyrightText: 2018-2019 Collabora Ltd <arnaud.ferraris@collabora.com>
  *   SPDX-FileCopyrightText: 2019 Adriaan de Groot <groot@kde.org>
+ *   SPDX-FileCopyrightText: 2024 Aaron Rainbolt <arraybolt3@gmail.com>
  *   SPDX-License-Identifier: GPL-3.0-or-later
  *
  *   Calamares is Free Software: see the License-Identifier above.
