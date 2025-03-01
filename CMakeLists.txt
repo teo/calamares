@@ -569,7 +569,7 @@ add_subdirectory(lang) # i18n tools
 # squashed into the example filesystem.
 #
 # To build the example distro (for use by the default, example,
-# unsquashfs module), build the target 'example-distro', eg.:
+# unsquashfs module), build the target *example-distro*, eg.:
 #
 #   make example-distro
 #
