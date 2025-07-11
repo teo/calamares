@@ -75,7 +75,8 @@ ErofsRunner::run()
     }
     if ( m_inodes <= 0 )
     {
-        cWarning() << "No stats could be obtained from" << dumpErofsExecutable << "-s";
+        cWarning() << "No stats could be obtained from" << dumpErofsExecutable << "-s "
+                   << m_source;
     }
 
     // Now do the actual unpack
