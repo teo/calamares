@@ -15,8 +15,6 @@
 
 #include <QString>
 
-static constexpr const int chunk_size = 107;
-
 Calamares::JobResult
 ErofsRunner::run()
 {
@@ -81,7 +79,7 @@ ErofsRunner::run()
 
     // Now do the actual unpack
     {
-        m_processed = 0;
+        m_linesProcessed = 0;
         Calamares::Utils::Runner r( { fsckErofsExecutable,
                                       QStringLiteral( "-d9" ),
                                       QStringLiteral( "--force" ),
@@ -96,15 +94,15 @@ ErofsRunner::run()
 void
 ErofsRunner::erofsProgress( QString line )
 {
-    m_processed++;
-    m_since++;
-    if ( m_since > chunk_size && line.contains( '/' ) )
+    m_linesProcessed++;
+    m_linesSinceLastUIUpdate++;
+    if ( m_linesSinceLastUIUpdate > updateUIEveryNLinex && line.contains( '/' ) )
     {
         const QString pathname = line.split( '/', SplitSkipEmptyParts ).last().trimmed();
         if ( !pathname.isEmpty() )
         {
-            m_since = 0;
-            double p = m_inodes > 0 ? ( double( m_processed ) / double( m_inodes ) ) : 0.5;
+            m_linesSinceLastUIUpdate = 0;
+            double p = m_inodes > 0 ? ( double( m_linesProcessed ) / double( m_inodes ) ) : 0.5;
             Q_EMIT progress( p, tr( "Erofs path %1" ).arg( pathname ) );
         }
     }
