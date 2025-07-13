@@ -30,7 +30,7 @@ private:
     int m_inodes = 0;  // Total in the FS
 
     // Progress reporting
-    static constexpr const int updateUIEveryNLinex = 107;
+    static constexpr const int updateUIEveryNLines = 107;
     int m_linesProcessed = 0;
     int m_linesSinceLastUIUpdate = 0;
 };

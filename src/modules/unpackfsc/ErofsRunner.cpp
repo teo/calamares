@@ -96,7 +96,7 @@ ErofsRunner::erofsProgress( QString line )
 {
     m_linesProcessed++;
     m_linesSinceLastUIUpdate++;
-    if ( m_linesSinceLastUIUpdate > updateUIEveryNLinex && line.contains( '/' ) )
+    if ( m_linesSinceLastUIUpdate > updateUIEveryNLines && line.contains( '/' ) )
     {
         const QString pathname = line.split( '/', SplitSkipEmptyParts ).last().trimmed();
         if ( !pathname.isEmpty() )
