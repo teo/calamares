@@ -87,7 +87,7 @@ UnsquashRunner::unsquashProgress( QString line )
 {
     m_linesProcessed++;
     m_linesSinceLastUIUpdate++;
-    if ( m_linesSinceLastUIUpdate > updateUIEveryNLinex && line.contains( '/' ) )
+    if ( m_linesSinceLastUIUpdate > updateUIEveryNLines && line.contains( '/' ) )
     {
         const QString filename = line.split( '/', SplitSkipEmptyParts ).last().trimmed();
         if ( !filename.isEmpty() )
