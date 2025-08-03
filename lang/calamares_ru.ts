@@ -174,7 +174,7 @@
       <location filename="../src/calamares/DebugWindow.cpp" line="166"/>
       <source>Debug Information</source>
       <comment>@title</comment>
-      <translation>Отладочная информация</translation>
+      <translation>Отладочная Информация</translation>
     </message>
   </context>
   <context>
@@ -1423,7 +1423,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/partition/gui/CreateVolumeGroupDialog.cpp" line="28"/>
       <source>Create Volume Group</source>
       <comment>@title</comment>
-      <translation>Создать группу томов</translation>
+      <translation>Создать Группу Томов</translation>
     </message>
   </context>
   <context>
@@ -3104,7 +3104,7 @@ The installer will quit and all changes will be lost.</source>
     <message>
       <location filename="../src/modules/users/page_usersetup.ui" line="652"/>
       <source>Domain Administrator:</source>
-      <translation>Администратор домена:</translation>
+      <translation>Администратор Домена:</translation>
     </message>
     <message>
       <location filename="../src/modules/users/page_usersetup.ui" line="662"/>
@@ -3835,7 +3835,7 @@ Output:
       <location filename="../src/modules/partition/jobs/ResizePartitionJob.cpp" line="39"/>
       <source>Resize partition %1</source>
       <comment>@title</comment>
-      <translation>Изменить размер раздела %1</translation>
+      <translation>Изменить размер Раздела %1</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/jobs/ResizePartitionJob.cpp" line="45"/>
@@ -3861,7 +3861,7 @@ Output:
       <location filename="../src/modules/partition/gui/ResizeVolumeGroupDialog.cpp" line="30"/>
       <source>Resize Volume Group</source>
       <comment>@title</comment>
-      <translation>Изменить размер группы томов</translation>
+      <translation>Изменить размер Группы Томов</translation>
     </message>
   </context>
   <context>
@@ -4628,13 +4628,13 @@ Output:
       <location filename="../src/calamares/DebugWindow.cpp" line="237"/>
       <source>About %1 Setup</source>
       <comment>@title</comment>
-      <translation>О настройке %1</translation>
+      <translation>О Настройке %1</translation>
     </message>
     <message>
       <location filename="../src/calamares/DebugWindow.cpp" line="238"/>
       <source>About %1 Installer</source>
       <comment>@title</comment>
-      <translation>О программе установки %1</translation>
+      <translation>О Программе Установки %1</translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/WelcomePage.cpp" line="213"/>
@@ -4649,7 +4649,7 @@ Output:
       <location filename="../src/modules/welcomeq/WelcomeQmlViewStep.cpp" line="40"/>
       <source>Welcome</source>
       <comment>@title</comment>
-      <translation>Добро пожаловать</translation>
+      <translation>Добро Пожаловать</translation>
     </message>
   </context>
   <context>
@@ -4658,7 +4658,7 @@ Output:
       <location filename="../src/modules/welcome/WelcomeViewStep.cpp" line="46"/>
       <source>Welcome</source>
       <comment>@title</comment>
-      <translation>Добро пожаловать</translation>
+      <translation>Добро Пожаловать</translation>
     </message>
   </context>
   <context>
