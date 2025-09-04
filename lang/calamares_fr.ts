@@ -5074,7 +5074,31 @@ ls -l /home
  * AMD CPU systems
 
 The vertical scrollbar is adjustable, current width set to 10.</source>
-      <translation type="unfinished"/>
+      <translation>### %1
+Ceci est un exemple de fichier QML, montrant des options rn Markdown avec du contenu Flickable.
+
+QML avec RichText peut utiliser des balises HTML, avec Markdown il utilise la syntaxe simple Markdown, le contenu Flickable est utile pour les écrans tactiles.
+
+**Ceci est du texte en gras**
+
+*Ceci est du texte en italique*
+
+_Ceci est du texte souligné_
+
+&gt;citation
+
+~~Ceci est barré~~
+
+Exemple de code :
+```
+ls -l /home
+```
+
+**Listes :**
+* Systèmes CPU Intel
+* Systèmes CPU AMD
+
+La barre de défilement verticale est réglable, la largeur actuelle est réglée sur 10.</translation>
     </message>
     <message>
       <location filename="../src/modules/welcomeq/release_notes.qml" line="80"/>

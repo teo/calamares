@@ -396,7 +396,7 @@
       <location filename="../src/libcalamares/modulesystem/RequirementsChecker.cpp" line="130"/>
       <source>System-requirements checking is complete.</source>
       <comment>@info</comment>
-      <translation>Järjestelmän vaatimusten tarkistus on valmis.</translation>
+      <translation>Tietokoneen vaatimusten tarkistus on valmis.</translation>
     </message>
   </context>
   <context>
@@ -650,13 +650,13 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
       <location filename="../src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp" line="34"/>
       <source>Set filesystem label on %1</source>
       <comment>@title</comment>
-      <translation>Aseta tiedostojärjestelmän nimeksi %1</translation>
+      <translation>Tiedostojärjestelmän nimeksi %1</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp" line="41"/>
       <source>Set filesystem label &lt;strong&gt;%1&lt;/strong&gt; to partition &lt;strong&gt;%2&lt;/strong&gt;</source>
       <comment>@info</comment>
-      <translation>Aseta tiedostojärjestelmän nimeksi &lt;strong&gt;%1&lt;/strong&gt; osioon &lt;strong&gt;%2&lt;/strong&gt;</translation>
+      <translation>Tiedostojärjestelmän nimeksi &lt;strong&gt;%1&lt;/strong&gt; osioon &lt;strong&gt;%2&lt;/strong&gt;</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp" line="50"/>
@@ -781,7 +781,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
     <message>
       <location filename="../src/modules/partition/gui/ChoicePage.cpp" line="1755"/>
       <source>This storage device already has an operating system on it. What would you like to do?&lt;br/&gt;You will be able to review and confirm your choices before any change is made to the storage device.</source>
-      <translation>Tämä kiintolevy sisältää jo käyttöjärjestelmän. Mitä haluat tehdä?&lt;br/&gt;Voit tarkistaa valintasi, ennen kuin kiintolevylle tehdään muutoksia.</translation>
+      <translation>Kiintolevyllä on jo käyttöjärjestelmä. Mitä haluat tehdä?&lt;br/&gt;Tarkista valintasi, ennen kuin kiintolevylle tehdään muutoksia.</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/gui/ChoicePage.cpp" line="1777"/>
@@ -986,7 +986,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
       <location filename="../src/modules/locale/Config.cpp" line="381"/>
       <source>Set timezone to %1.</source>
       <comment>@action</comment>
-      <translation>Aseta aikavyöhyke %1.</translation>
+      <translation>Aikavyöhykkeeksi %1.</translation>
     </message>
     <message>
       <location filename="../src/modules/locale/Config.cpp" line="418"/>
@@ -998,7 +998,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
       <location filename="../src/modules/locale/Config.cpp" line="425"/>
       <source>The numbers and dates locale will be set to %1.</source>
       <comment>@info</comment>
-      <translation>Numerot ja päivämäärät, paikallinen asetus on %1.</translation>
+      <translation>Numerot ja päivämäärä on %1.</translation>
     </message>
     <message>
       <location filename="../src/modules/netinstall/Config.cpp" line="53"/>
@@ -1064,12 +1064,12 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
     <message>
       <location filename="../src/modules/summary/Config.cpp" line="39"/>
       <source>This is an overview of what will happen once you start the setup procedure.</source>
-      <translation>Tämä on katsaus siitä, mitä tapahtuu, kun aloitat määrityksen.</translation>
+      <translation>Yleiskatsaus mitä tapahtuu kun aloitat asennuksen.</translation>
     </message>
     <message>
       <location filename="../src/modules/summary/Config.cpp" line="44"/>
       <source>This is an overview of what will happen once you start the install procedure.</source>
-      <translation>Tämä on katsaus siitä, mitä tapahtuu, kun aloitat asennuksen.</translation>
+      <translation>Yleiskatsaus mitä tapahtuu kun aloitat asennuksen.</translation>
     </message>
     <message>
       <location filename="../src/modules/users/Config.cpp" line="237"/>
@@ -1144,7 +1144,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
     <message>
       <location filename="../src/modules/welcome/Config.cpp" line="80"/>
       <source>This program will ask you some questions and set up %2 on your computer.</source>
-      <translation>Tämä ohjelma kysyy sinulta kysymyksiä ja määrittää %2 tietokoneellesi.</translation>
+      <translation>Ohjelma kysyy kysymyksiä ja määrittää %2 tietokoneellesi.</translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/Config.cpp" line="264"/>
@@ -1775,7 +1775,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
       <location filename="../src/modules/partition/jobs/FillGlobalStorageJob.cpp" line="296"/>
       <source>Install boot loader on &lt;strong&gt;%1&lt;/strong&gt;…</source>
       <comment>@info</comment>
-      <translation>Asenna käynnistyslatain kohteeseen &lt;strong&gt;% 1&lt;/strong&gt;…</translation>
+      <translation>Asenna latain &lt;strong&gt;%1&lt;/strong&gt;…</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/jobs/FillGlobalStorageJob.cpp" line="305"/>
@@ -1795,7 +1795,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
       <location filename="../src/modules/finished/FinishedPage.cpp" line="75"/>
       <source>&lt;h1&gt;All done.&lt;/h1&gt;&lt;br/&gt;%1 has been set up on your computer.&lt;br/&gt;You may now start using your new system.</source>
       <comment>@info</comment>
-      <translation>&lt;h1&gt;Valmista.&lt;/h1&gt;&lt;br/&gt;%1 on määritetty tietokoneelle.&lt;br/&gt;Voit aloittaa uuden järjestelmän käytön.</translation>
+      <translation>&lt;h1&gt;Valmista.&lt;/h1&gt;&lt;br/&gt;%1 on määritetty tietokoneelle.&lt;br/&gt;Voit aloittaa järjestelmän käytön.</translation>
     </message>
     <message>
       <location filename="../src/modules/finished/FinishedPage.cpp" line="80"/>
@@ -1807,7 +1807,7 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
       <location filename="../src/modules/finished/FinishedPage.cpp" line="89"/>
       <source>&lt;h1&gt;All done.&lt;/h1&gt;&lt;br/&gt;%1 has been installed on your computer.&lt;br/&gt;You may now restart into your new system, or continue using the %2 Live environment.</source>
       <comment>@info</comment>
-      <translation>&lt;h1&gt;Valmista.&lt;/h1&gt;&lt;br/&gt; %1 on asennettu tietokoneellesi. &lt;br/&gt;Voit käynnistää tietokoneen, tai voit jatkaa %2 live-ympäristön käyttöä.</translation>
+      <translation>&lt;h1&gt;Valmista.&lt;/h1&gt;&lt;br/&gt; %1 on asennettu tietokoneellesi. &lt;br/&gt;Voit käynnistää tietokoneen tai jatkaa %2 live-ympäristön käyttöä.</translation>
     </message>
     <message>
       <location filename="../src/modules/finished/FinishedPage.cpp" line="95"/>
@@ -2410,8 +2410,8 @@ Asennusohjelma lopetetaan ja kaikki muutokset menetetään.</translation>
             and timezone settings for you. You can fine-tune the suggested settings below. Search the map by dragging
             to move and using the +/- buttons to zoom in/out or use mouse scrolling for zooming.</source>
       <comment>@info</comment>
-      <translation>Valitse sinun sijaintisi kartalla, jotta asentaja voi ehdottaa sinulle maa
-ja aikavyöhykkeen asetuksia. Voit hienosäätää asetuksia. Etsi kartalta vetämällä tai painamalla +/- painikkeita.Voit myös käyttää hiiren rullaa skaalaamiseen.</translation>
+      <translation>Valitse sijaintisi kartalla ja asentaja ehdottaa sinulle maa-asetuksia.
+Voit myös hienosäätää asetuksia. Etsi kartalta vetämällä tai painamalla +/- painikkeita. Voit käyttää hiiren rullaa ja skaalata.</translation>
     </message>
   </context>
   <context>
@@ -2428,9 +2428,8 @@ ja aikavyöhykkeen asetuksia. Voit hienosäätää asetuksia. Etsi kartalta vet�
             and timezone settings for you. You can fine-tune the suggested settings below. Search the map by dragging
             to move and using the +/- buttons to zoom in/out or use mouse scrolling for zooming.</source>
       <comment>@label</comment>
-      <translation>Valitse sinun sijaintisi kartalla, jotta asentaja voi ehdottaa sinulle maa
-ja aikavyöhykkeen asetuksia. Voit hienosäätää asetuksia.
-Etsi kartalta vetämällä tai painamalla +/- painikkeita. Voit myös käyttää hiiren rullaa skaalaamiseen.</translation>
+      <translation>Valitse sijaintisi kartalla ja asentaja ehdottaa sinulle maa-asetuksia.
+Voit myös hienosäätää asetuksia. Etsi kartalta vetämällä tai painamalla +/- painikkeita. Voit käyttää hiiren rullaa ja skaalata.</translation>
     </message>
   </context>
   <context>
@@ -3275,7 +3274,7 @@ Etsi kartalta vetämällä tai painamalla +/- painikkeita. Voit myös käyttää
       <location filename="../src/modules/partition/PartitionViewStep.cpp" line="56"/>
       <source>Gathering system information…</source>
       <comment>@status</comment>
-      <translation>Kerätään järjestelmän tietoja...</translation>
+      <translation>Kerätään tietokoneen tietoja...</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/PartitionViewStep.cpp" line="107"/>
@@ -3428,7 +3427,7 @@ Etsi kartalta vetämällä tai painamalla +/- painikkeita. Voit myös käyttää
     <message>
       <location filename="../src/modules/partition/PartitionViewStep.cpp" line="627"/>
       <source>EFI system partition recommendation</source>
-      <translation>EFI-järjestelmän osiointisuositus</translation>
+      <translation>EFI osiointisuositus</translation>
     </message>
     <message>
       <location filename="../src/modules/partition/PartitionViewStep.cpp" line="646"/>
@@ -3481,12 +3480,12 @@ Etsi kartalta vetämällä tai painamalla +/- painikkeita. Voit myös käyttää
     <message>
       <location filename="../src/modules/plasmalnf/PlasmaLnfPage.cpp" line="80"/>
       <source>Please choose a look-and-feel for the KDE Plasma Desktop. You can also skip this step and configure the look-and-feel once the system is set up. Clicking on a look-and-feel selection will give you a live preview of that look-and-feel.</source>
-      <translation>Valitse ulkoasu KDE-plasma -työpöydälle. Voit myös ohittaa tämän vaiheen ja määrittää ulkoasun, kun järjestelmä on asetettu. Klikkaamalla ulkoasun valintaa saat suoran esikatselun tästä ulkoasusta.</translation>
+      <translation>Valitse ulkoasu KDE Plasma:lle. Voit ohittaa tämän vaiheen ja määrittää ulkoasun kun tietokone on asetettu. Painamalla ulkoasua saat esikatselun ulkoasusta.</translation>
     </message>
     <message>
       <location filename="../src/modules/plasmalnf/PlasmaLnfPage.cpp" line="87"/>
       <source>Please choose a look-and-feel for the KDE Plasma Desktop. You can also skip this step and configure the look-and-feel once the system is installed. Clicking on a look-and-feel selection will give you a live preview of that look-and-feel.</source>
-      <translation>Valitse KDE Plasma -työpöydän ulkoasu. Voit myös ohittaa tämän vaiheen ja määrittää ulkoasun, kun järjestelmä on asennettu. Napsauttamalla ulkoasun valintaa saat suoran esikatselun tästä ulkoasusta.</translation>
+      <translation>Valitse ulkoasu KDE Plasma:lle. Voit ohittaa tämän vaiheen ja määrittää ulkoasun kun tietokone on asetettu. Painamalla ulkoasua saat esikatselun ulkoasusta.</translation>
     </message>
   </context>
   <context>
@@ -3732,7 +3731,7 @@ Asennus voi jatkua, mutta jotkin toiminnot saattavat olla pois käytöstä.&lt;/
       <location filename="../src/modules/fsresizer/ResizeFSJob.cpp" line="43"/>
       <source>Performing file system resize…</source>
       <comment>@status</comment>
-      <translation>Suoritetaan tiedostojärjestelmän koon muutosta…</translation>
+      <translation>Tiedostojärjestelmän kokoa muutetaan…</translation>
     </message>
     <message>
       <location filename="../src/modules/fsresizer/ResizeFSJob.cpp" line="162"/>
@@ -3803,7 +3802,7 @@ Asennus voi jatkua, mutta jotkin toiminnot saattavat olla pois käytöstä.&lt;/
       <location filename="../src/modules/fsresizer/ResizeFSJob.cpp" line="216"/>
       <source>The file system %1 must be resized, but cannot.</source>
       <comment>@info</comment>
-      <translation>Tiedostojärjestelmän %1 kokoa olisi muutettava, mutta sitä ei voida tehdä.</translation>
+      <translation>Tiedostojärjestelmän %1 kokoa olisi muutettava, mutta sitä ei voi tehdä.</translation>
     </message>
     <message>
       <location filename="../src/modules/fsresizer/ResizeFSJob.cpp" line="217"/>
@@ -4565,7 +4564,7 @@ Asennus voi jatkua, mutta jotkin toiminnot saattavat olla pois käytöstä.&lt;/
       <location filename="../src/modules/welcome/WelcomePage.ui" line="79"/>
       <location filename="../src/modules/welcome/WelcomePage.ui" line="98"/>
       <source>Select application and system language</source>
-      <translation>Valitse sovellusten ja järjestelmän kieli</translation>
+      <translation>Valitse sovellusten kieli</translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/WelcomePage.ui" line="140"/>
@@ -4738,7 +4737,7 @@ Asennus voi jatkua, mutta jotkin toiminnot saattavat olla pois käytöstä.&lt;/
       <source>%1 has been installed on your computer.&lt;br/&gt;
             You may now restart into your new system, or continue using the Live environment.</source>
       <translation>%1 on asennettu tietokoneellesi. &lt;br/&gt;
-Käynnistää tietokoneen uudelleen tai jatka Live-ympäristön käyttöä.</translation>
+Käynnistä tietokone tai jatka Live-ympäristön käyttöä.</translation>
     </message>
     <message>
       <location filename="../src/modules/finishedq/finishedq.qml" line="65"/>
@@ -4754,8 +4753,8 @@ Käynnistää tietokoneen uudelleen tai jatka Live-ympäristön käyttöä.</tra
       <location filename="../src/modules/finishedq/finishedq.qml" line="89"/>
       <source>&lt;p&gt;A full log of the install is available as installation.log in the home directory of the Live user.&lt;br/&gt;
             This log is copied to /var/log/installation.log of the target system.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Asennuksen installation.log löytyy asennusmedialta live-käyttäjän kotihakemistosta.&lt;br/&gt;
-Loki kopioidaan myös /var/log/installation.log kansioon.</translation>
+      <translation>&lt;p&gt;Asennusloki installation.log löytyy asennusmedialta live-käyttäjän kotihakemistosta.&lt;br/&gt;
+Se kopioidaan myös /var/log/installation.log kansioon.&lt;/p&gt;</translation>
     </message>
   </context>
   <context>
@@ -4772,7 +4771,7 @@ Loki kopioidaan myös /var/log/installation.log kansioon.</translation>
             You may now restart into your new system, or continue using the Live environment.</source>
       <comment>@info, %1 is the product name</comment>
       <translation>%1 on asennettu tietokoneellesi. &lt;br/&gt;
-Käynnistää tietokoneen uudelleen tai jatka Live-ympäristön käyttöä.</translation>
+Käynnistä tietokone tai jatka Live-ympäristön käyttöä.</translation>
     </message>
     <message>
       <location filename="../src/modules/finishedq/finishedq-qt6.qml" line="65"/>
@@ -4791,8 +4790,8 @@ Käynnistää tietokoneen uudelleen tai jatka Live-ympäristön käyttöä.</tra
       <source>&lt;p&gt;A full log of the install is available as installation.log in the home directory of the Live user.&lt;br/&gt;
             This log is copied to /var/log/installation.log of the target system.&lt;/p&gt;</source>
       <comment>@info</comment>
-      <translation>&lt;p&gt;Asennuksen installation.log löytyy asennusmedialta live-käyttäjän kotihakemistosta.&lt;br/&gt;
-Loki kopioidaan myös /var/log/installation.log kansioon.</translation>
+      <translation>&lt;p&gt;Asennusloki installation.log löytyy asennusmedialta live-käyttäjän kotihakemistosta.&lt;br/&gt;
+Se kopioidaan myös /var/log/installation.log kansioon.&lt;/p&gt;</translation>
     </message>
   </context>
   <context>
@@ -5062,9 +5061,9 @@ ls -l /home
 
 The vertical scrollbar is adjustable, current width set to 10.</source>
       <translation>### %1
-Tämä on esimerkki QML-tiedostosta, joka näyttää Markdownin vaihtoehdot flickerable-sisällöllä.
+Esimerkki QML-tiedostosta. Markdownin vaihtoehdot flickerable-sisällöllä.
 
-RichTextin QML voi käyttää HTML-tageja, Markdown käyttää yksinkertaista Markdown-syntaksia. Flickable-sisältö on hyödyllistä kosketusnäytölle.
+RichTextin QML voi käyttää HTML-tageja, Markdown käyttää Markdown-syntaksia. Flickable on hyödyllistä kosketusnäytölle.
 
 **Tämä on lihavoitu teksti**
 
@@ -5085,7 +5084,7 @@ ls -l /home
 * Intel-suorittimet
 * AMD-suorittimet
 
-Pystyvierityspalkki on säädettävissä, leveys on nyt asetettu arvoon 10.</translation>
+Vierityspalkki on säädettävissä, leveys on nyt arvossa 10.</translation>
     </message>
     <message>
       <location filename="../src/modules/welcomeq/release_notes.qml" line="80"/>
@@ -5138,7 +5137,7 @@ Pystyvierityspalkki on säädettävissä, leveys on nyt asetettu arvoon 10.</tra
     <message>
       <location filename="../src/modules/usersq/usersq.qml" line="147"/>
       <source>What is the name of this computer?</source>
-      <translation>Mikä on tämän tietokoneen nimi?</translation>
+      <translation>Mikä tulee tietokoneen nimeksi?</translation>
     </message>
     <message>
       <location filename="../src/modules/usersq/usersq.qml" line="153"/>
@@ -5223,7 +5222,7 @@ Pystyvierityspalkki on säädettävissä, leveys on nyt asetettu arvoon 10.</tra
     <message>
       <location filename="../src/modules/usersq/usersq.qml" line="420"/>
       <source>When this box is checked, password-strength checking is done and you will not be able to use a weak password.</source>
-      <translation>Kun tämä valintaruutu on valittu, salasanan vahvuus tarkistetaan, etkä voi käyttää heikkoa salasanaa.</translation>
+      <translation>Kun ruutu on valittuna, salasanan vahvuus tarkistetaan, etkä voi käyttää heikkoa salasanaa.</translation>
     </message>
   </context>
   <context>
@@ -5271,7 +5270,7 @@ Pystyvierityspalkki on säädettävissä, leveys on nyt asetettu arvoon 10.</tra
     <message>
       <location filename="../src/modules/usersq/usersq-qt6.qml" line="146"/>
       <source>What is the name of this computer?</source>
-      <translation>Mikä on tämän tietokoneen nimi?</translation>
+      <translation>Mikä tulee tietokoneen nimeksi?</translation>
     </message>
     <message>
       <location filename="../src/modules/usersq/usersq-qt6.qml" line="152"/>
@@ -5356,7 +5355,7 @@ Pystyvierityspalkki on säädettävissä, leveys on nyt asetettu arvoon 10.</tra
     <message>
       <location filename="../src/modules/usersq/usersq-qt6.qml" line="419"/>
       <source>When this box is checked, password-strength checking is done and you will not be able to use a weak password.</source>
-      <translation>Kun tämä valintaruutu on valittu, salasanan vahvuus tarkistetaan, etkä voi käyttää heikkoa salasanaa.</translation>
+      <translation>Kun ruutu on valittuna, salasanan vahvuus tarkistetaan, etkä voi käyttää heikkoa salasanaa.</translation>
     </message>
   </context>
   <context>
