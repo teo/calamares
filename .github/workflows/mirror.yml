@@ -1,6 +1,7 @@
 name: Mirror Codeberg → GitHub
 on:
   workflow_dispatch:
+  push:
   schedule:
     - cron: "*/30 * * * *"   # sync every 30 minutes
 
