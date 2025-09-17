@@ -1,0 +1,29 @@
+name: Mirror Codeberg → GitHub
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"   # sync every 30 minutes
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone upstream (bare mirror)
+        run: |
+          git clone --mirror https://codeberg.org/Calamares/calamares.git mirror
+          cd mirror
+
+          # Set GitHub as push target using Actions token
+          git remote add github "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/teo/calamares.git"
+
+          # Make sure we know about deletions, tags, all refs
+          git remote update --prune
+
+          # Push EVERYTHING (branches, tags, notes) and mirror deletions
+          git push --mirror github
+
+          # If you enabled LFS above, you can also push LFS objects:
+          # git lfs push --all github
